@@ -32,7 +32,7 @@ These would step up reinforcing biological diversity via introducing or rehabili
 
 |install.packages(c("arules", "arulesViz"))|
 | :- |
-- [Data Preparation](#DataPreration)
+- [Data Preparation and computing dark diversity](#DataPreration)
     - We use 75\% of the dataset as training data. Then we predict the probable occurrences of not-found classes at multiple estuaries for the remaining 25\% of 
       the dataset. UNO method uses any of the 3 different methods (minobs(), minpred(), binminpred()) to calculate threshold value for predicting abundances. 
       After having tested with all the 3 different methods, it has been found that minobs() and minpreds() are suitable for our case. minpred() uses the 
@@ -43,8 +43,7 @@ These would step up reinforcing biological diversity via introducing or rehabili
     
   - Discretization of all the obtained values and apply textual leveling to make the dataset comprehensible.
  
-  - Applying FIST for generating a set of rules. 
+  - Generating a set of association rules. 
 
-- [Computing Dark Diversity](#Dark Diversity)
-- [References](#References)
-- 
+## ORIGINAL PAPER
+* **Moumita Ghosh, Anirban Roy, Kartick Chandra Mondal** - *Determining Dark Diversity of Different Faunal Groups in Indian Estuarine Ecosystem: A New Approach With Computational Biodiversity* - [Link To Paper](https://link.springer.com/chapter/10.1007/978-981-16-4435-1_16)
